@@ -1,0 +1,153 @@
+.signmain > .info{
+    margin-top:3rem;
+    height: 20rem !important;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(248, 41, 147, 0.75) 0%, #E1147D 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.text{
+    margin-top:2rem;
+    margin-left: 4rem;
+    text-align: left;
+color:white;
+}
+.text > h1{
+font-weight: bold!important;
+font-size: 2rem;
+}
+.text >p{
+    font-size: 1rem;
+    font-weight: bold!important;
+}
+.button{
+    background-color: white;
+    color:#E1147D !important;
+    font-weight: bold!important;
+    padding: 0.5rem !important;
+    max-height: 100%;
+    margin-bottom: 1rem;
+    
+}
+.image >img{
+    margin-top:-4rem;
+    max-width:32.1rem;
+}
+@media (max-width:992px){
+    .text > h1{
+       
+        font-size: 1rem!important;
+        }
+        .text >p{
+            font-size: 0.6rem!important;
+        }
+     }
+     @media (max-width:768px){
+        .image >img{
+            margin-top:-4rem;
+            width:25rem;
+     }
+     .signmain > .info{
+        margin-top:7rem;
+        height: 14.7rem !important;
+        
+       
+    }
+    .button{
+       width:2rem !important;
+        padding: 0.5 !important;
+        font-size:0.5rem!important;
+        margin-bottom: 0.5rem;
+    }
+    .text > h1{
+       
+        font-size: 1rem!important;
+        }
+        .text >p{
+            font-size: 0.3rem!important;
+            font-weight: 250!important
+        }
+}
+@media (max-width:518px){
+    .image >img{
+        margin-top:-4rem;
+        width:20rem;
+ }
+ .signmain > .info{
+    margin-top:5rem;
+    height: 10.9rem !important;
+    
+   
+}
+.button{
+    width:1.5rem !important;
+     padding: 0.5 !important;
+     font-size:0.5rem!important;
+     margin-bottom: 0.5rem;
+
+}
+.text{
+    margin-top:1rem;
+    margin-left: 4rem;
+    text-align: left;
+color:white;
+}
+.text > h1{
+   
+    font-size: 0.5rem!important;
+    }
+    .text >p{
+        font-size: 0.3rem!important;
+        font-weight: 250!important
+    }
+}
+@media (max-width:420px){
+    .image >img{
+        margin-top:-4rem;
+        width:16rem;
+ }
+ .signmain > .info{
+    
+    height: 8rem !important;
+    
+   
+}
+.button{
+    width:0.5rem !important;
+     padding: 0.5 !important;
+     font-size:0.5rem!important;
+     margin-bottom: 0.5rem;
+
+}
+.text{
+    margin-top:1rem;
+    margin-left: 4rem;
+    text-align: left;
+color:white;
+}
+.text > h1{
+   
+    font-size: 0.5rem!important;
+    }
+    .text >p{
+        font-size: 0.3rem!important;
+        font-weight: 250!important
+    }
+}
+@media (max-width: 400px){
+    .signmain > .info{
+        margin-top:5rem;
+        height: 100% !important;
+        width: 100% !important
+        
+    }
+    .image >img{
+        margin-top: 1rem;
+        width:10.5rem!important;
+ }
+}
+@media (max-width:360px){
+   .signmain{
+       height:100%;
+       width:100%;
+   } 
+}

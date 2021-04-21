@@ -1,0 +1,30 @@
+.container{
+    margin-top:0.5rem;
+    text-align:center;
+   width:100% !important;
+
+
+}
+.container > .row{
+    background: #F0F0F0;  
+}
+
+
+.container > .row > .col1{
+    border: 1px solid whitesmoke;
+    font-weight: bold;
+    border-radius: 3px;
+    background: #F0F0F0;
+    padding:0.5rem  !important;
+    cursor: pointer;
+    
+}
+.active-tab{
+    border: 1px solid whitesmoke;
+    font-weight: bold;
+    border-radius: 3px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(248, 41, 147, 0.75) 0%, #E1147D);
+    padding:0.5rem  !important;
+    cursor: pointer;
+
+}

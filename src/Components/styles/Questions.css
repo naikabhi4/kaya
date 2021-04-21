@@ -1,0 +1,35 @@
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    margin-left: 2rem;
+}
+.qcal>h1{
+    text-align: left;
+    font-size:1.5rem;
+    color:#E1147D;
+    font-weight: bold;
+}
+.formlabel{
+    text-align: left;
+}
+.options{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:0.8rem;
+}
+.options2{
+    display: flex;
+    flex-direction:column;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn >.nxtbtn{
+   
+    background-color:#E1147D;
+    color:black;
+    padding:2rem;
+    margin-right: 1rem;
+}
